@@ -103,3 +103,28 @@ Before pre-processing and after pre-processing Datapoints count statistics is gi
 
 <img src="https://user-images.githubusercontent.com/26309477/123934635-1afa9280-d9b1-11eb-9526-82523cf53442.jpg" width="400" /> 
 
+### 4. Feature Extraction:
+We have extracted features using Count Vector, Binary Bows, TF-IDF Vector, Bi-Gram Vector, Average Word2Vec and TF-IDF weighted Word2Vec.
+
+Based on the experiments, we found that we are getting good results using features: TF-IDF Vector, Average Word2Vec and TF-IDF weighted Word2Vec.
+
+For TF-IDF Vector, Vocabulary Size is : 110095.
+
+For Word2Vec model, vector size is 64. Based on experiments, we found that training Word2Vec model for 100 epochs produces good results.
+
+### 5. Model Training:
+
+#### 1. K - nearest neighbors Algorithm:
+
+KNN Algorithms Training & Testing Details are given below: 
+
+Features | Best K | F1 - Score 
+-------------    | -------------   |  ---------- 
+TF-IDF Vector |      41           |0.77750
+Average Word2Vec  | 7 | 0.76371 
+ TF-IDF weighted Word2Vec | 7 | 0.76647
+    
+    
+    
+    
+    
