@@ -112,7 +112,10 @@ For TF-IDF Vector, Vocabulary Size is : 110095.
 
 For Word2Vec model, vector size is 64. Based on experiments, we found that training Word2Vec model for 100 epochs produces good results.
 
-### 5. Model Training:
+### 5. Dataset Train-Validation Partition:
+We have used Stratified 5 - Fold Cross Validation Partitioning to split the dataset into train and validation.
+
+### 6. Model Training:
 
 #### 1. K - nearest neighbors Algorithm:
 
